@@ -20,13 +20,20 @@ def yes_no(question):
       print()
 
 print("Welcome To The Annual MATH QUIZ.")
-
+#instructions funtion goes here
 def instructions():
   print()
   print("****How To Play****")
   print()
-  print("The rules of the quiz go here")
+  print("The rules of the quiz are simple.")
   print()
+  print("You will be asked mathematical questions that you will have to answer.")
+  print()
+  print("The question will include, Multiplication, Addition, Subtraction and Divison.")
+  print()
+  print("In the Quiz you will have 3 lives, you will lose 1 live everytime\nyou get a question wrong.")
+  print()
+  print("When all 3 lives are lost, the quiz will stop.\n(You can enter 'xxx'to quit the game)")
   return ""
 
 #main routine goes here
@@ -36,7 +43,7 @@ played_before = yes_no("Have you played this game before?\n")
 if played_before == "no":
   instructions()
 print()
-print("Program continues\n")
+print("Good Luck and Have Fun!")
 
 
 
