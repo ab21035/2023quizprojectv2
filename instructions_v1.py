@@ -27,13 +27,13 @@ def instructions():
   print()
   print("The rules of the quiz are simple.")
   print()
-  print("You will be asked mathematical questions that you will have to answer.")
+  print("You will be asked 10 randomized mathematical questions that you\nwill have to answer.")
   print()
-  print("The question will include, Multiplication, Addition, Subtraction and Divison.")
+  print("The question will be Multiplication questions.")
   print()
   print("In the Quiz you will have 3 lives, you will lose 1 live everytime\nyou get a question wrong.")
   print()
-  print("When all 3 lives are lost, the quiz will stop.\n(You can enter 'xxx'to quit the game)")
+  print("When all 3 lives are lost, the quiz will end.")
   return ""
 
 #main routine goes here
