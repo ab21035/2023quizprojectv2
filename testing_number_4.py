@@ -43,12 +43,11 @@ def multiplication_gen():
       lives -= 1
 
 
-    #amount of rounds_played
-    rounds_played += 1
+
 
   #end game counclusion
   print()
-  print("Game over")
+  print("Game over...")
   print()
   print(f"Rounds Played: {rounds_played}")
   print()
