@@ -11,4 +11,6 @@ def satement_decorator(statement, decoration):
 
   return ""
   
-satement_decorator("Welcome To The Annual MATH QUIZ", "-")
+satement_decorator("Welcome To The Annual MATH QUIZ", "=")
+satement_decorator("Correct","-")
+satement_decorator("Incorrect","!")
