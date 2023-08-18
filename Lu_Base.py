@@ -53,7 +53,7 @@ def satement_decorator(statement, decoration):
 #main routine goes here
 satement_decorator("Welcome To The Annual Math Quiz.","=")
 print()
-played_before = yes_no("Have you played this game before?\n")
+played_before = yes_no("Have you played this quiz before?\n")
 
 if played_before == "no":
   instructions()
